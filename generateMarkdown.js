@@ -38,8 +38,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
     if(license !== 'None'){
-        return `## License 
-This project is licensed under the ${renderLicenseBadge(license)}${renderLicenseLink(license)} license.
+        return `${renderLicenseBadge(license)}${renderLicenseLink(license)}
 
         `
     }
@@ -47,7 +46,8 @@ This project is licensed under the ${renderLicenseBadge(license)}${renderLicense
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return ` # ${data.title}
+  return `# ${data.title}
+
 ${renderLicenseSection(data.license)}
 ## Description
 ${data.description}
@@ -71,7 +71,10 @@ ${data.usage}
 ${data.credits}
 
 ## License
-${renderLicenseLink(data.license)}
+Copyright (c) Silvia Reyes. All rights reserved.
+
+Licensed under the [${data.license} License.](https://opensource.org/licenses/${data.license})
+
 
 ## Features
 ${data.features}
@@ -82,6 +85,14 @@ ${data.contributing}
 ## Tests
 ${data.tests}
 
+## Questions
+If you have any questions, feedback, or suggestions, feel free to reach out! You can contact me through my GitHub profile or via email.
+
+GitHub Profile: Your GitHub Profile
+Email: Your Email Address
+I'm always open to discussions and eager to help. Don't hesitate to get in touch!
+
+> Thanks for stopping!
 `;
 }
 
