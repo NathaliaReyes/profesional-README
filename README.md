@@ -1,45 +1,61 @@
 # CHALLENGE 09
 
-[![License](https://img.shields.io/badge/License-Apache-blue.svg)](https://opensource.org/licenses/Apache)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
         
+
 ## Description
-khasgfjggsf
+
+khasjjgf
 
 ## Table of Contents
-- [CHALLENGE 09](#challenge-09)
-  - [Description](#description)
-  - [Table of Contents](#table-of-contents)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Credits](#credits)
-  - [License](#license)
-  - [Features](#features)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+* [Features](#features)
+* [Contributing](#contributing)
+* [Tests](#tests)
 
 ## Installation
-sdhgjkdfg
+
+dlsfksdhf
 
 ## Usage
-khghdg
+
+ssldhjsgh
 
 ## Credits
-dfgdkgjd
+
+ñldjgkhg
 
 ## License
+
 Copyright (c) Silvia Reyes. All rights reserved.
 
-Licensed under the [Apache License.](https://opensource.org/licenses/Apache)
++ Licensed under the [MIT License.](https://opensource.org/licenses/MIT)
 
 
 ## Features
-jhfjggf
+
+khfdkhsf
 
 ## Contributing
-dsjjkdfhsjkg
+
+sdjgd
 
 ## Tests
-djkhgkjdfg
 
-> Thanks for stopping!
+dskhkhg
+
+## Questions
+If you have any questions, feedback, or suggestions, feel free to reach out! You can contact me through my GitHub profile or via email.
+
+GitHub Profile 💻: [NathaliaReyes](https://github.com/NathaliaReyes)
+Email 📧: lsahf@gmail.com
+
+I'm always open to discussions and eager to help. Don't hesitate to get in touch!
+
+
+
+**_Thanks for stopping!_**

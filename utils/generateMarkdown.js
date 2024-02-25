@@ -5,24 +5,6 @@ function renderLicenseBadge(license) {
         return `[![License](https://img.shields.io/badge/License-${license}-blue.svg)]`;
     }
     return '';
-    
-
-    /* switch(license) {
-
-        case 'MIT':
-            return `[![${license} License][license-shield]][license-url]`;
-            break;
-            console.log('MIT License');
-        case 'GNU':
-            return `[![${license} License][license-shield]][license-url]`;
-        case 'Apache':
-            return `[![${license} License][license-shield]][license-url]`;
-        case 'ISC':
-            return `[![${license} License][license-shield]][license-url]`;
-        default:
-            return 'N/A';
-
-    } */
 }
 
 // TODO: Create a function that returns the license link
@@ -42,6 +24,9 @@ function renderLicenseSection(license) {
 
         `
     }
+    else {
+        return '';
+    }
 }
 
 // TODO: Create a function to generate markdown for README
@@ -49,7 +34,9 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
 ${renderLicenseSection(data.license)}
+
 ## Description
+
 ${data.description}
 
 ## Table of Contents
@@ -62,40 +49,49 @@ ${data.description}
 * [Tests](#tests)
 
 ## Installation
+
 ${data.installation}
 
 ## Usage
+
 ${data.usage}
 
 ## Credits
+
 ${data.credits}
 
 ## License
+
 Copyright (c) Silvia Reyes. All rights reserved.
 
-Licensed under the [${data.license} License.](https://opensource.org/licenses/${data.license})
++ Licensed under the [${data.license} License.](https://opensource.org/licenses/${data.license})
 
 
 ## Features
+
 ${data.features}
 
 ## Contributing
+
 ${data.contributing}
 
 ## Tests
+
 ${data.tests}
 
 ## Questions
 If you have any questions, feedback, or suggestions, feel free to reach out! You can contact me through my GitHub profile or via email.
 
-GitHub Profile: Your GitHub Profile
-Email: Your Email Address
+GitHub Profile 💻: [${data.githubUsername}](https://github.com/${data.githubUsername})
+Email 📧: ${data.email}
+
 I'm always open to discussions and eager to help. Don't hesitate to get in touch!
 
-> Thanks for stopping!
+
+
+**_Thanks for stopping!_**
 `;
 }
-
 
 
 module.exports = generateMarkdown;
