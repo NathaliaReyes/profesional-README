@@ -47,6 +47,7 @@ ${data.description}
 * [Features](#features)
 * [Contributing](#contributing)
 * [Tests](#tests)
+* [Questions](#questions)
 
 ## Installation
 
