@@ -1,62 +1,59 @@
-# Portfolio Generator
+# Database Management
 
-[![License](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
         
 
 ## Description
 
-ahsgfsdg
+This is a Management System of a database-driven project designed to streamline the tracking and organization of inventory for a business
 
 ## Table of Contents
-- [Portfolio Generator](#portfolio-generator)
-  - [Description](#description)
-  - [Table of Contents](#table-of-contents)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Credits](#credits)
-  - [License](#license)
-  - [Features](#features)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+* [Features](#features)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
 ## Installation
 
-sdfgdfh
+Please clone the project and download the neccesary dependencies
 
 ## Usage
 
-dfhgfhdhf
+Please fork the project and make a pull request.
 
 ## Credits
 
-fhdhdh
+Material from DatabaseInc comapny.
 
 ## License
 
 Copyright (c) Silvia Reyes. All rights reserved.
 
-+ Licensed under the [ISC License.](https://opensource.org/licenses/ISC)
++ Licensed under the [MIT License.](https://opensource.org/licenses/MIT)
 
 
 ## Features
 
-fhfhshf
+Inventory tracking, order management, supplier management, and reporting functionalities.
 
 ## Contributing
 
-sfhshfhf
+n/a
 
 ## Tests
 
-sfhsfh
+n/a
 
 ## Questions
 If you have any questions, feedback, or suggestions, feel free to reach out! You can contact me through my GitHub profile or via email.
 
 GitHub Profile 💻: [NathaliaReyes](https://github.com/NathaliaReyes)
-Email 📧: silvia@hotmail.com
+Email 📧: silvianathaliareyes96@gmail.com
 
 I'm always open to discussions and eager to help. Don't hesitate to get in touch!
 
