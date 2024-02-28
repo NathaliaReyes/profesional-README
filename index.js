@@ -8,7 +8,7 @@ const questions = ['What is the title of your project?',
                   'Please provide a description of your project.', 
                   'Please provide installation instructions for your project.', 
                   'Please provide usage information for your project.', 
-                  'PLease provide credits for your project.',
+                  'Please provide credits for your project.',
                   'Please select a license for your project.', 
                   'Please provide the features of your project.',
                   'Please provide contribution guidelines for your project.', 
@@ -81,7 +81,7 @@ function init() {
   .then((data) => {
     console.log(data);
 
-    fs.writeFile('README.md', generateMarkdown(data), (err) =>
+    fs.writeFile('generatedREADME.md', generateMarkdown(data), (err) =>
       err ? console.error(err) : console.log('Success!')
     )
 
